@@ -21,3 +21,43 @@ SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE
 FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE,
 ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 DEALINGS IN THE SOFTWARE.
+
+Java Example
+
+public class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello World");
+  }
+}
+
+PHP Example
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+// This is a single-line comment
+
+# This is also a single-line comment 
+
+#This is also a single-line comment ?>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+//You can also use comments to leave out parts of a code line
+$x = 5/* + 15*/ + 5;
+echo $x;
+?>
+
+</body>
+</html>
+
+
+
